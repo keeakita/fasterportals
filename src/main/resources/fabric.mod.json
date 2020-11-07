@@ -1,37 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fasterportals",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Faster Nether Portals",
+  "description": "Reduces Nether portal wait time from 4 seconds to 1 second.",
   "authors": [
-    "Me!"
+    "William Osler"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "email": "keea@keea.dog"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "license": "MIT",
+  "icon": "assets/fasterportals/icon.png",
+  "environment": "server",
   "mixins": [
-    "modid.mixins.json"
+    "fasterportals.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
     "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
