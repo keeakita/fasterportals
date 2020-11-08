@@ -13,6 +13,11 @@
   "license": "MIT",
   "icon": "assets/fasterportals/icon.png",
   "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dog.keea.minecraft.mods.fasterportals.FasterPortals"
+    ]
+  },
   "mixins": [
     "fasterportals.mixins.json"
   ],
